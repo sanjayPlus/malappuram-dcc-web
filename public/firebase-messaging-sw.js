@@ -2,15 +2,16 @@ importScripts("https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.2.0/firebase-messaging.js");
 
 // Initialize the Firebase app in the service worker by passing the generated config
+
 const firebaseConfig = {
-  apiKey: "AIzaSyBX8IZXm3C08lZN_T9AOLP9R3Ag_1gvzXE",
-  authDomain: "dcc-thiruvanathapuram.firebaseapp.com",
-  databaseURL: "https://dcc-thiruvanathapuram-default-rtdb.firebaseio.com",
-  projectId: "dcc-thiruvanathapuram",
-  storageBucket: "dcc-thiruvanathapuram.appspot.com",
-  messagingSenderId: "696455065803",
-  appId: "1:696455065803:web:82595bc9d1037143012b4e",
-  measurementId: "G-D99YR4ME5Q"
+  apiKey: "AIzaSyArWId5srZlU9IwKHHWLHGfat-61NjbwCA",
+  authDomain: "dcc-malapuram.firebaseapp.com",
+  databaseURL: "https://dcc-malapuram-default-rtdb.firebaseio.com",
+  projectId: "dcc-malapuram",
+  storageBucket: "dcc-malapuram.appspot.com",
+  messagingSenderId: "367530148775",
+  appId: "1:367530148775:web:be9a93cbb4e95f2b24ac82",
+  measurementId: "G-347M3E5V3H"
 };
 
 firebase.initializeApp(firebaseConfig);
